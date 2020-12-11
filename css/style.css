@@ -1,0 +1,47 @@
+
+
+body{
+    /* background: #999; */
+    background: -webkit-linear-gradient(top, rgb(112, 113, 121), rgb(241, 220, 173));
+}
+
+.parent{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(236, 170, 27);
+    transform: rotateX(55deg) rotateZ(55deg);
+    transform-style: preserve-3d;
+}
+
+.child1{
+    width: 100px;
+    height: 100px;
+    background:  rgb(104, 113, 243); 
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 170, 27);
+}
+
+.child2{
+    width: 100px;
+    height: 100px;
+    background:  rgb(69, 72, 105);  
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 170, 27);
+}
+
+.child1:hover{
+    transform: translateZ(50px) rotateY(100deg); 
+    margin-left: -40px;
+    margin-right: 40px;
+}
+
+.child2:hover{
+    transform: translateZ(50px) rotateY(100deg); 
+    margin-left: -40px;
+    margin-right: 40px;
+}
+
+
